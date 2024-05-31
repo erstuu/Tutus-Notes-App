@@ -55,7 +55,7 @@ const NoteEditor = ({
             {selectedNote && (
                 <Button
                     variant="destructive"
-                    className="ml-4 px-3 w-1/5"
+                    className="ml-4 px-3 w-1/5 sm:px-1/2"
                     onClick={() => handleDeleteNote(selectedNote.id)}
                 >
                     Delete Note
