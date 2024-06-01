@@ -45,9 +45,16 @@ const Sidebar = () => {
                         </Link>
                     </nav>
                 </div>
+                <div className="flex items-center justify-center h-20 mt-72 text-sm">
+                    <div className="flex flex-col items-center text-gray-500">
+                        <p>❤️Made with Love</p>
+                        <p className="text-xs">Copyright © 2024 Restu Gede Purnama</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
-}
+};
+
 
 export default Sidebar;
