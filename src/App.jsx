@@ -63,13 +63,6 @@ const App = () => {
     };
 
     return(
-        // <Container>
-        //     <Header />
-        //     <Notes noteList={notesData} setNote={setNote}>
-        //         {note && (<Note note={note}/>)}
-        //     </Notes>
-        // </Container>
-
         <div className="grid min-h-screen w-full lg:grid-cols-[240px_1fr]">
             <Sidebar/>
             <div className="flex flex-col lg:grid lg:grid-cols-[300px_1fr] gap-4 p-4 lg:p-6">
